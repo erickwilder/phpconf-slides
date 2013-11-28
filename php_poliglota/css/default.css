@@ -82,16 +82,17 @@ table {
     want to leave anybody behind.
 */
 body {
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Sintony', sans-serif;
     min-height: 740px;
+    color: #000;
 
-    background: rgb(215, 215, 215);
-    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));
-    background: -webkit-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:    -moz-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:     -ms-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:      -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:         radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background: rgb(80, 80, 80);
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(100, 100, 100)), to(rgb(40, 40, 40)));
+    background: -webkit-radial-gradient(rgb(100, 100, 100), rgb(40, 40, 40));
+    background:    -moz-radial-gradient(rgb(100, 100, 100), rgb(40, 40, 40));
+    background:     -ms-radial-gradient(rgb(100, 100, 100), rgb(40, 40, 40));
+    background:      -o-radial-gradient(rgb(100, 100, 100), rgb(40, 40, 40));
+    background:         radial-gradient(rgb(100, 100, 100), rgb(40, 40, 40));
 }
 
 /*
@@ -175,7 +176,7 @@ a:focus {
     -o-box-sizing:      border-box;
     box-sizing:         border-box;
 
-    font-family: 'PT Serif', georgia, serif;
+    font-family: 'Sintony', georgia, serif;
     font-size: 48px;
     line-height: 1.5;
 }
@@ -705,4 +706,28 @@ a:focus {
 
 .code {
     font-family: "Courier New", Courier, Monospace;
+}
+
+.fancy {
+    font-family: 'Ubuntu';
+}
+.boxed {
+    background: #999;
+    color: #333;
+    border-radius: .5em;
+    box-shadow: 0 0 1em #000;
+    text-align:center;
+}
+#talk-title .title  {
+    font-weight: bold;
+    font-size:2em;
+    color: #333;
+    font-family: 'Ubuntu';
+}
+#talk-title .subtitle  {
+    font-size:.55em;
+}
+
+#fabric {
+    back
 }
