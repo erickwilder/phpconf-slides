@@ -87,12 +87,12 @@ body {
     color: #000;
 
     background: rgb(80, 80, 80);
-    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(100, 100, 100)), to(rgb(40, 40, 40)));
-    background: -webkit-radial-gradient(rgb(100, 100, 100), rgb(40, 40, 40));
-    background:    -moz-radial-gradient(rgb(100, 100, 100), rgb(40, 40, 40));
-    background:     -ms-radial-gradient(rgb(100, 100, 100), rgb(40, 40, 40));
-    background:      -o-radial-gradient(rgb(100, 100, 100), rgb(40, 40, 40));
-    background:         radial-gradient(rgb(100, 100, 100), rgb(40, 40, 40));
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(150, 150, 150)), to(rgb(90, 90, 90)));
+    background: -webkit-radial-gradient(rgb(150, 150, 150), rgb(90, 90, 90));
+    background:    -moz-radial-gradient(rgb(150, 150, 150), rgb(90, 90, 90));
+    background:     -ms-radial-gradient(rgb(150, 150, 150), rgb(90, 90, 90));
+    background:      -o-radial-gradient(rgb(150, 150, 150), rgb(90, 90, 90));
+    background:         radial-gradient(rgb(150, 150, 150), rgb(90, 90, 90));
 }
 
 /*
@@ -723,9 +723,11 @@ a:focus {
     font-size:2em;
     color: #333;
     font-family: 'Ubuntu';
+    text-shadow: none;
 }
 #talk-title .subtitle  {
     font-size:.55em;
+    text-shadow:none;
 }
 
 #fabric {
@@ -777,6 +779,7 @@ a:focus {
     font-size: .8em;
     color:#ccc;
     margin-bottom: 65px;
+    text-shadow: none;
 }
 
 .work-logos {
@@ -810,6 +813,8 @@ a:focus {
     font-size: 1.2em;
     padding: 20px;
     margin-top: 400px;
+    color:#000;
+    text-shadow: none;
 }
 
 #php-only-programmer {
@@ -823,3 +828,11 @@ a:focus {
     margin-top: 480px;
 }
 #php-only-programmer p strong {color:red;}
+#be-hacker {}
+#be-hacker h1 {
+    font-size: 2em;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    color: #cfcfcf;
+    text-shadow: 2px 2px 10px #000;
+}
