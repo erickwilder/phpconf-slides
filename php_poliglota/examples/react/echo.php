@@ -1,5 +1,5 @@
 <?php
-require __DIR__.'/../vendor/autoload.php';
+require __DIR__.'/../dependency_management/vendor/autoload.php';
 
 $loop = React\EventLoop\Factory::create();
 $socket = new React\Socket\Server($loop);
