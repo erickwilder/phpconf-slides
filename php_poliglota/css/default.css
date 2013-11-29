@@ -731,3 +731,95 @@ a:focus {
 #fabric {
     back
 }
+
+.text-center {
+    text-align: center;
+}
+
+#vagrant h3 {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #48B4FB;
+}
+.vagrant-logo {
+    border-radius:242px;
+    width: 484px;
+    height:0;
+    padding-top: 484px;
+    text-align: center;
+    overflow: hidden;
+    background:#F7F6F1 url('../img/vagrant.png') no-repeat 50% 50%;
+    position: absolute;
+    left: 50%;
+    top:0;
+    margin-left: -100px;
+    margin-top: -180px;
+}
+
+#be-a-pirate {
+    background: #000 url('../img/pirate-idea.jpg') no-repeat 50% 50%;
+    width: 790px;
+    height: 790px;
+    opacity: 1;
+    border-radius: 390px;
+
+}
+
+#be-a-pirate p {
+    color:#cecece;
+    font-family: 'Redressed';
+    text-align: center;
+    line-height: 1280px;
+}
+
+#my-work p {
+    text-align: center;
+    font-size: .8em;
+    color:#ccc;
+    margin-bottom: 65px;
+}
+
+.work-logos {
+    text-align: center;
+}
+.work-logos .php,
+.work-logos .python {
+    height: 180px;
+}
+
+.work-logos .titans {
+    display: inline-block;
+    clear:left;
+    background: #fff;
+    padding:.2em;
+    margin-top: 45px;
+}
+
+#are-you-serious {
+    width: 1024px;
+    height: 768px;
+    background: url('../img/tomato-toss.jpg') no-repeat 50% 50%;
+    padding: 0;
+}
+#are-you-serious p,
+.overlay-text {
+    background: #fff;
+    opacity: .75;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 20px;
+    margin-top: 400px;
+}
+
+#php-only-programmer {
+    width: 1024px;
+    height: 768px;
+    background: url('../img/stop-sign.jpg') no-repeat 50% 50%;
+    padding: 0;
+}
+#php-only-programmer p {
+    font-weight: normal;
+    margin-top: 480px;
+}
+#php-only-programmer p strong {color:red;}
