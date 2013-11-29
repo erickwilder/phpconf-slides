@@ -1,0 +1,13 @@
+{
+    "name": "erickwilder/phpconf",
+
+    "dependencies": {
+        "socket.io": "0.9",
+        "express": "3.x",
+        "coffee-script": "1.6.x"
+    },
+
+    "devDependencies": {
+        "stylus": "0.40.x"
+    }
+}
