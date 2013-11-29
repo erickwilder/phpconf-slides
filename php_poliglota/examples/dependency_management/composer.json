@@ -1,9 +1,5 @@
 {
     "require": {
-        "silex/silex": "~1.1"
-    },
-
-    "require-dev": {
-        "mockery/mockery": "dev-master@dev"
+        "react/react": "0.3.*"
     }
 }
